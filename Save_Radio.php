@@ -2,7 +2,7 @@
 
 include("Conexion.php");
 
-  if (isset($_POST['Guardar'])) {
+  if (isset($_POST['Save'])) {
     $Modelo = $_POST['Modelo'];
     $Serial = $_POST['Serial'];
     $Placa = $_POST['Placa'];
