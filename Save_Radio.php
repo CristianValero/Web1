@@ -9,8 +9,9 @@ include("Conexion.php");
     $bateria = $_POST['Bateria'];
     $Cli = $_POST['Cli'];
     $Cargador = $_POST['Cargador'];
+    $Lugar = $_POST['Lugar'];
 
-    $query = "INSERT INTO Radios(Modelo, Serial, Placa, Bateria, Cli, Cargador) VALUES ('$Modelo' , '$Serial', '$Placa', '$Bateria', '$Cli', '$Cargador')";
+    $query = "INSERT INTO Radios(Modelo, Serial, Placa, Bateria, Cli, Cargador, Lugar) VALUES ('$Modelo' , '$Serial', '$Placa', '$Bateria', '$Cli', '$Cargador')";
     $result = mysqli_query($conn, $query);
     if (!$result) {
       die("Consulta cancelada");

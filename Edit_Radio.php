@@ -12,6 +12,7 @@
         $bateria = $row['Bateria'];
         $Cli = $row['Cli'];
         $Cargador = $row['Cargador'];
+        $Lugar = $row['Lugar']
         
       }
    }
