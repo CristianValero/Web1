@@ -116,7 +116,9 @@
                 <br> <br>
 
                 <div class="col-md-12">
-                    <table class="table table-bordered table_id">
+                    <table class="table table-bordered tg-black table_id">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>>
                         <thead>
                             <tr>
                                 <th>Marca</th>
@@ -139,12 +141,6 @@
                             while($row = mysqli_fech_array($result_Radios)) { ?>
                                 <tr>
                                     <td><?php echo $row['Modelo'] ?></td>
-                                    <td>Feliz</td>
-                                    <td>triste</td>
-
-                                    <tr>
-                                        <td>Prueba</td>
-                                    </tr>
                                     <td><?php echo $row['Serial'] ?></td>
                                     <td><?php echo $row['Placa'] ?></td>
                                     <td><?php echo $row['Antena'] ?></td>
